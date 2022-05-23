@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 50px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+input:focus {
+  outline: 0;
+}
+button[class*="btn"] {
+  height: 35px;
+  width: 35px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 25px;
+  color: black;
+}
+button[class*="btn"] i {
+  font-weight: 900;
+}
+.table > :not(:first-child) {
+  border-top: none !important;
+}
+.table {
+  margin-bottom: 0 !important;
 }
